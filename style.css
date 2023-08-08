@@ -1,0 +1,782 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #000;
+}
+
+.press{
+    text-align: center;
+    font-family:Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, serif;
+    color: wheat;
+}
+
+.titulo{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: -5px;
+}
+
+.titulo2{
+    letter-spacing: 4px;
+}
+
+.box-a{
+    background-color: #fff6ed;
+
+}
+
+.multiline-text{
+    font-size: 17px;
+    padding-top: 60px;
+    text-align: center;
+    font-family: Merriweather;
+    font-weight: 900;
+    color: #5c5a5a;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+
+}
+
+.first-letter::first-letter {
+    font-size: 1.5rem;
+}
+
+.multiline-text p{
+    margin: 4px 0;
+}
+
+.img1{
+    max-width: 100%;
+    
+    display: block;
+    margin: 0 auto;
+    border-radius: 10%;
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.57);
+}
+
+.nos_casamos{
+    margin-top: 60px;
+    text-align: center;
+    font-family: Merriweather;
+    font-weight: lighter;
+}
+
+.nos_casamos h1{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.nos_casamos img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: -40px;
+}
+
+.nombres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.line{
+    height: 25%;
+    width: 30%; /* O cualquier ancho deseado */
+    height: 2px; /* O cualquier altura deseada */
+    background-color: black; /* O cualquier color deseado */
+    margin-top: 10px; /* O cualquier margen superior deseado */
+    margin-bottom: 10px; /* O cualquier margen inferior deseado */
+}
+
+.nombre{
+    font-family: Merriweather;
+    font-size: 35px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tipo{
+    color: #3f6e6a;
+}
+
+.corazons{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.linea1{
+    margin-top: 35px;
+    color: rgb(182, 24, 24);
+}
+
+.date{
+    text-align: center;
+    font-family: Lora;
+}
+
+.fecha{
+    font-size: 55px;
+    color: #3f6e6a;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.mounth{
+    height: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: -30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.year{
+    margin-top: -2px;
+    font-size: 40px;
+    color: #3f6e6a;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 50px;
+}
+
+
+.box-b{
+    position: relative;
+    margin-top: -15px;
+    text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.box-b::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./345047697_204935022371766_4552963709411051013_n.jpg");
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.cora{
+    margin-top: 60px;
+}
+
+.lineas{    
+    font-family: Merriweather;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: #4d4b4b;
+}
+
+.espacio{
+    margin: 9px 0;
+}
+
+.gran-dia{
+    margin-top: 70px;
+    font-family: Merriweather;
+    color: #3f6e6a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+.tipo1{
+    margin: -10px 0;
+}
+
+.cuenta{
+    font-family: Lora;
+    letter-spacing: 3px;
+    font-weight: 900;
+    padding-bottom: 90px;
+}
+
+.box-c{
+    text-align: center;
+    font-family: Lora;
+    color: #4d4b4b;
+    background-color: #fcf6f1;
+    
+}
+
+.artificial{
+    margin-top: 90px;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.novios{
+    font-size: 30px;
+}
+
+.lugar{
+    margin-top: -20px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.text-bendi{
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.espacios{
+    margin-top: -20px;
+}
+
+.novia{
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+}
+
+.madre{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.sep{
+    margin-top: -15px;
+}
+
+.nov{
+    margin-bottom: 60px;
+}
+
+.box-d{
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.textlugar{
+    font-family: Merriweather;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.text{
+    font-size: 35px;
+    padding: 10px 0;
+}
+
+.espaci1{
+    margin-top: -70px;
+}
+
+
+.carro{
+    margin-top: -39px;
+}
+
+.lugar_evento{
+    padding-top: 40px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.box{
+    font-family: Merriweather;
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-hoja-acuarela-marron-estetica-temporada-otono_53876-129881.jpg");
+    border-radius: 20px;
+    padding: 10px -70px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    margin: 0 430px;
+    padding: 20px 0;
+}
+
+.ceremonia {
+    display: inline-block;
+    color: #315f5b;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+  
+.ceremonia::first-letter {
+    font-size: 150%; /* Ajusta el tamaño de la primera letra según tus necesidades */
+}
+
+.horaa{
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.hora{
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.salon{
+    font-weight: 600;
+}
+
+.carro12{
+    margin-top: 70px;
+    height: 90px;
+    margin-bottom: 50px;
+}
+
+.box-f{
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.arriba{
+    margin-top: -38px;
+}
+
+
+.vetimenta{
+    margin-top: 90px;
+}
+
+.codigo{
+    font-family: Merriweather;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.up{
+    margin-top: -20px;
+}
+
+.froma{
+    margin-top: 40px;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.dress{
+    height: 240px;
+}
+
+.regalo{
+    margin-top: 150px;
+}
+
+.regalos{
+    margin-top: -20px;
+}
+
+.bancoaz{
+    margin-top: 60px;
+}
+
+.banco{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    height: 220px;
+}
+
+.bancos, .datos_banc{
+    font-family: Merriweather;
+}
+
+.datos_banc{
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+
+.name{
+    font-family: Merriweather;
+    font-size: 40px;
+    color: #397570;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 120px;
+}
+
+.recu{
+    font-family: Merriweather;
+}
+
+.recuerda{
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.ESP{
+    margin-top: -10px;
+}
+
+.hast{
+    color: #397570;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.cita{
+    margin-top: 90px;
+}
+
+.tam{
+    font-family: Merriweather;
+    font-size: 30px;
+    color: #397570;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.co1{
+    margin-top: -20px;
+}
+
+.imagen_bod{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.im{
+    height: 680px;
+    border-radius: 20px;
+    
+    
+}
+
+.container {
+    margin-top: 70px;
+    display: flex;
+    padding-bottom: 80px;
+}
+  
+.imagen_bod, .envia {
+    flex: 1;
+    margin: 0 100px;
+}
+
+
+
+.comple{
+    font-family: Great Vibes;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.es{
+    margin-top: -20px;
+}
+
+
+.asistencia{
+    text-align: left;
+}
+
+.as2{
+    margin-top: 20px;
+}
+
+.caja{
+    border: none;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    width: 540px;
+    height: 140px;
+    text-align: left;
+}
+
+.enviardb{
+    margin-top: 30px;
+    border: none;
+    background-color: #d8d8d8;
+    color: rgb(97, 97, 97);
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.enviardb:hover{
+    background-color: #000;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer{
+    text-align: center;
+    
+}
+
+.fin{
+    padding: 20px 0;
+    background-color: #fff6ed;
+}
+
+.nyd{
+    font-family: Merriweather;
+    font-size: 30px;
+}
+
+.fech{
+    font-family: Merriweather;
+    font-size: 17px;
+    margin-top: -10px;
+}
+
+
+.conta{
+    
+    position: relative;
+    margin-top: -15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-family: Merriweather;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.conta::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./20230603_140526.jpg");
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.gracias{
+    color: #4d4b4b;
+    letter-spacing: 2px;
+}
+
+.s6s{
+    margin-top: -10px;
+}
+
+
+.boton{
+   position: relative;
+}
+
+.boton button{
+    background-color: rgb(231, 231, 176);
+    padding: 7px 13px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    color: #315f5b;
+}
+
+.checkbox-circular {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #7a7a7a;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+  
+.checkbox-circular:checked {
+    background-color: #616161;
+}
+  
+.checkbox-circular + label {
+    margin-left: 8px;
+    cursor: pointer;
+}
+  
+
+
+
+
+
+@media (max-width: 768px) {
+    .lugar_evento {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    
+    }
+  
+    .box {
+      padding: 40px 90px;
+    }
+
+    .ceremonia,
+    .dato12 {
+        display: inline;
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+
+  
+    .ceremonia,
+    .dato12,
+    .horaa,
+    .hora,
+    .salon {
+      margin-left: 0;
+      padding-left: -160px;
+    }
+  
+    .carro12 {
+      margin-top: 70px;
+      height: 90px;
+      margin-bottom: 50px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .asistencia {
+        margin-top: 40px;
+    }
+
+    .comple{
+        text-align: center;
+    }
+
+    .as, .as2, .texto-mas{
+        margin-left: -5px;
+    }
+    
+    .caja{
+        width: 340px;
+    }
+}
+
+/*Efectos*/
+
+.header {
+    position: relative;
+  }
+  
+.press {
+    position: relative;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: aparecer 2.5s forwards;
+}
+  
+@keyframes aparecer {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+/*-------------------------------------------*/
+
+.campw {
+    opacity: 2s;
+    transform: translateX(-100%);
+    animation: slide-in 2s forwards;
+}
+  
+@keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+.campw24{
+    opacity: 2s;
+    transform: translateX(-100%);
+    animation: slide-in 3.5s forwards;
+}
+  
+@keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+}
+
+.campw1 {
+    opacity: 2s;
+    transform: translateX(-100%);
+    animation: slide-in 4s forwards;
+}
+  
+@keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+.campw34{
+    opacity: 2s;
+    transform: translateX(-100%);
+    animation: slide-in 4.5s forwards;
+}
+  
+@keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+
+.audio{
+    margin-top: 30px;
+    margin-left: 39%;
+}
+
+@media (max-width: 768px){
+    .audio{
+        margin-left: 40px;
+    }
+}
+
+
+
+
+ 
+  
